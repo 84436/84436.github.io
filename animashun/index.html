@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+    this is hacked together in like nearly an hour *
+    as a reaction to this tiktok: https://vt.tiktok.com/ZS8rn2HEg/
+    * an hour, because this is like the first time
+    I've ever touched CSS animations and everything's still confusing
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOOOOOOOO ANIMASHUNS!!!1!!11!</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+        html {
+            overflow: hidden;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(
+                0deg,
+                rgb(255,000,000) calc(0/12 * 100%),
+                rgb(255,128,000) calc(1/12 * 100%),
+                rgb(255,255,000) calc(2/12 * 100%),
+                rgb(000,255,000) calc(3/12 * 100%),
+                rgb(000,000,255) calc(4/12 * 100%),
+                rgb(128,000,255) calc(5/12 * 100%),
+                rgb(255,000,255) calc(6/12 * 100%),
+                rgb(128,000,255) calc(7/12 * 100%),
+                rgb(000,000,255) calc(8/12 * 100%),
+                rgb(000,255,000) calc(9/12 * 100%),
+                rgb(255,255,000) calc(10/12 * 100%),
+                rgb(255,128,000) calc(11/12 * 100%),
+                rgb(255,000,000) calc(12/12 * 100%)
+            );
+            background-position: 0% -100%;
+            background-size: 100% 200%;
+            animation: scrolling 1s linear infinite;
+        }
+        @keyframes scrolling {
+            to { background-position: 0% 100% }
+        }
+        h1 {
+            font-size: 3rem;
+            animation: spinning 2s linear infinite;
+            text-align: center;
+        }
+        @keyframes spinning {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>WOOOOOOOO ANIMASHUNS!!!1!!11!</h1>
+</body>
+</html>

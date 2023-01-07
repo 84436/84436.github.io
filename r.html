@@ -1,0 +1,16 @@
+<style>body{height:100vh;display:flex;justify-content:center;align-items:center}</style>
+<p id="msg">Redirecting...</p>
+<script>
+
+// This code is written badly on purpose.
+REDIRECTION_KEYS = {
+  'd': 'https://dynalist.io/d/vknYqlOgticK0lqXfFR3783M#theme=dark',
+  'i': 'https://dynalist.io/d/CnqriYH94Xv3b0S2PMBsTli8#theme=dark',
+}
+
+window.addEventListener('load', () => {
+key = Array.from((new URLSearchParams(window.location.search)).keys()).shift()
+if (REDIRECTION_KEYS[key] === undefined) {document.getElementById('msg').textContent = 'Redirecting to nowhere. Try again.'}
+else {window.location.replace(REDIRECTION_KEYS[key])}
+})
+</script>

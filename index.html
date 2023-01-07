@@ -1,0 +1,107 @@
+<!-- Yes, this page was written manually using vanilla HTML and CSS.
+     Frameworks and optimizations be đamned.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
+    <title>Thien Bui</title>
+    
+    <link rel="shortcut icon" href="/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        /* Spacing */
+        #lorem { margin-top: 1rem; }
+        #links { margin-top: 2rem; }
+        #toys { margin-top: 2rem; }
+
+        /* Greeter */
+        #greet { font-size: 3rem; }
+        #lorem { column-gap: 1ch; }
+
+        /* Links */
+        #links { column-gap: 0.5rem; }
+        #links a {
+            line-height: 0;
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+            transition: background-color 0.15s ease-out;
+            opacity: 0.6;
+            transition: opacity 0.15s ease-out;
+        }
+        #links a:hover {background-color: rgba(0, 0, 0, 0.20); }
+        #links a:active { background-color: rgba(0, 0, 0, 0.60); }
+        #links a:hover, #links a:active { opacity: 1; }
+        #links img { width: 1.5rem; height: 1.5rem; }
+
+        /* Toys */
+        #toys { row-gap: 0.25rem; }
+    </style>
+</head>
+
+<body>
+    <div id="main" class="flex-v flex-fill flex-dead-center text-center">
+        <div id="greet">
+            hi~
+            <span title="U+1F44B: Waving Hand Sign">&#x1F44B;</span>
+        </div>
+
+        <div id="lorem" class="flex-h flex-wrap flex-dead-center">
+            <span title="Congratulations! You have found the placeholder text.">
+                lorem ipsum dolor sit amet.
+            </span>
+            <span title="This one is just for manually verifying that OpenType font features work in your browser. I &lt;3 Inter font.">
+                (lr)=>{G-I}@134690!
+            </span>
+        </div>
+
+        <div id="links" class="flex-h flex-grow flex-dead-center flex-wrap">
+            <a href="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?&enablejsapi=1&autoplay=1&mute=1" title="YouTube (be sure to unmute the video)">
+                <img src="/icons/youtube.png">
+            </a>
+            <a href="https://gitlab.com/84436" title="GitLab: @84436">
+                <img src="/icons/gitlab.png">
+            </a>
+            <a href="https://open.spotify.com/user/794s5c8vst40v0d2vafdscv8o" title="Spotify: I have trash taste">
+                <img src="/icons/spotify.png">
+            </a>
+            <a href="https://www.linkedin.com/in/thienbui84436/" title="LinkedIn: Thien Bui-Van">
+                <img src="/icons/linkedin.png">
+            </a>
+            <a href="https://www.facebook.com/thien.bui.84436" title="Facebook/Messenger: @thien.bui.84436">
+                <img src="/icons/facebook.png">
+            </a>
+            <a href="https://discord.com/users/481094401557397504" title="Discord: le gopher#1325">
+                <img src="/icons/discord.png">
+            </a>
+            <a href="https://github.com/84436" title="GitHub: @84436">
+                <img src="/icons/github.png">
+            </a>
+            <a href="mailto:hi@84436.xyz" title="Drop me a line if you'd love to. Please don't spam.">
+                <!-- Mail icon from Google Material Symbols -->
+                <img src="/icons/mail.png">
+            </a>
+            <!--
+                Direct email: {my Facebook user name}@{Google's mail service}
+                The other email address goes through a relay, and I probably won't reply to anything that came from it.
+                Please contact via this email for work or important stuff only. Thank you.
+            -->
+        </div>
+
+        <div id="toys" class="flex-v text-center">
+            <span class="text-sub">
+                random stuff (warning: amateur; does not make sense)
+            </span>
+            <div id="toys-list" class="flex-h flex-wrap flex-dead-center links-highlight-on-hover">
+                <a href="/pray" title="&#x1F64F;">/pray</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

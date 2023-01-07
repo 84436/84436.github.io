@@ -1,0 +1,16 @@
+# Hint: Array.from(document.querySelectorAll('link[rel~="icon"]')).map(e => e.href)
+
+https://www.youtube.com/s/desktop/79e611f1/img/favicon_144x144.png
+    out=youtube.png
+https://about.gitlab.com/nuxt-images/ico/favicon-192x192.png?cache=2022041
+    out=gitlab.png
+https://open.spotifycdn.com/cdn/images/favicon.5cb2bd30.ico
+    out=spotify.ico
+https://static-exp1.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca
+    out=linkedin.ico
+https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico
+    out=facebook.ico
+https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico
+    out=discord.ico
+https://github.githubassets.com/favicons/favicon.png
+    out=github.png

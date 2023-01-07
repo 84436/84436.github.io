@@ -1,0 +1,18 @@
+export default [
+    { type: 'yt', vid: "dQw4w9WgXcQ" },
+    { type: 'yt', vid: "0wwJmLygR84" },
+    { type: 'yt', vid: "cErgMJSgpv0" },
+    { type: 'yt', vid: "F5kPvyKTtis" },
+    { type: 'yt', vid: "FmQbFdsngMA" },
+    { type: 'yt', vid: "JhngPrykN68" },
+    { type: 'yt', vid: "KZ_SeW5ga-0" },
+    { type: 'yt', vid: "MO7bRMa9bmA" },
+    { type: 'yt', vid: "nc5oOlaGPlA" },
+    { type: 'yt', vid: "dYTiuR70nhU" },
+    { type: 'yt', vid: "S7RgFM7PHLg" },
+    { type: 'yt', vid: "xm3YgoEiEDc" },
+    { type: 'yt', vid: "PobpXY4nNzY" },
+    { type: 'yt', vid: "zrM-xxrnO_8" },
+    { type: 'yt', vid: "OvbmKlQqEwU" },
+    { type: 'yt', vid: "EE-xtCF3T94" },
+]
